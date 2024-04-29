@@ -1,0 +1,13 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot hosted on Netlify serverless",
+  "scripts": {
+    "start": "netlify dev",
+    "build": "netlify build",
+    "deploy": "netlify deploy --prod"
+  },
+  "devDependencies": {
+    "netlify-cli": "^3.42.10"
+  }
+}
